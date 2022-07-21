@@ -1,0 +1,59 @@
+
+// - The JSON should be saved as a JSON file (`menu.json`) and should be 
+// an **object** (`{}`) representing the entirety of your menu.
+
+
+   { "Menu": [
+       {"appetizers":{
+           "name": ["shrimp cocktail", "sliders", "chicken wings"],
+           "ingredients": ["shrimp and sauce", "burger and bun", "chicken and wing"],
+           "description":["delicious shrimp and sauce", "greasy burger and bun", "zesty chicken wings"]
+       } 
+
+       },
+       {"cold sandwhiches": {
+        "name": ["ham", "turkey", "salami"],
+        "ingredients": ["ham and bread", "turkey and bread", "salami and bread"],
+        "description":["delicious ham sam", "stale turkey sam", "zesty salami sam"]
+        }
+    },
+        {"hot sandwhiches": {
+            "name": ["pastrami", "tunamelt", "meatballsub"],
+            "ingredients": ["pastrami and bread", "tuna and cheese on a bun", "meatballs and bread"],
+            "description":["delicious pastrami sammy", "great tuna cheesy bread", "zesty meatball sub"]
+        }
+    },
+        {"desserts":{
+            "name": ["chocolate cake", "apple pie", "pudding"],
+            "ingredients": ["chocolate and icing", "apples and bread", "chocolate pudding"],
+            "description":["delicious chocolatey cake", "apple pie yummy", "sweet pudding"]
+            }
+        },
+
+        {"drinks": {
+            "name": ["coke", "pepsi", "tea"],
+            "ingredients": ["coca cola", "pepsi cola", "hot water and tea"],
+            "description":["refreshing coca cola", "ice cold pepsi", "hot water and zesty tea"]
+        }
+    }
+
+]
+
+   }
+
+// - Your menu JSON should consist of multiple properties, each one an array,
+//  represent the array of options available for:
+//     - appetizers
+//     - cold sandwiches
+//     - hot sandwiches
+//     - desserts
+//     - drinks
+// - Each item in each array should be an object consisting of 3 properties:
+//     - name of the item/sandwich
+//     - an array of strings representing the ingredients
+//     - a string description.
+// - You must have at least 2 items (objects) on each submenu
+//  (appetizers, cold sands, hot sands, desserts, and drinks)
+
+// While you're writing out your JSON, it might help to periodically 
+// paste your JSON into [JSONlint](http://jsonlint.com/) to validate that the syntax is correct.

@@ -1,0 +1,12 @@
+#grid-container{
+    display: grid;
+    grid-gap: 5px;
+    height: 200px;
+    width: 500px;
+    border: solid red 2px;
+    margin: 5px;
+    grid-template-columns: repeat (3, minmax(100px, 1fr));
+}
+
+h1{color:blueviolet
+}
